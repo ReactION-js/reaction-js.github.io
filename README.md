@@ -1,6 +1,6 @@
 # Welcome to ReactION!
 
-ReactION is a react component visualizer for VS code!
+ReactION is a React component visualizer for VS Code. It builds a zero-setup static composition tree straight from your workspace's source, or you can opt in to a live connection for real-time inspection and render profiling.
 
 [Please visit our primary repository](https://github.com/ReactION-js/ReactION)
 
