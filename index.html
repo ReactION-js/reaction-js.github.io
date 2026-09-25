@@ -135,10 +135,26 @@
                 Opt in to a live connection to get a render-count heatmap, per-component "why did this render" reasons, and wasted-render flags.
               </div>
             </div>
+
+            <!-- Guided Setup -->
+            <div class="service-list">
+              <div class="service-list-col2">
+                <h3>Guided live setup</h3>
+                Opting into live rendering walks you through a short wizard that auto-detects your running dev server and locates Chrome for you.
+              </div>
+            </div>
+
+            <!-- Initial Load Report -->
+            <div class="service-list">
+              <div class="service-list-col2">
+                <h3>Initial Load Report</h3>
+                A one-shot capture of everything that rendered on first load, grouped by component with instance/render/wasted counts — click a row to highlight it live.
+              </div>
+            </div>
           </div>
           <figure class="col-lg-8 col-sm-6  text-right wow fadeInRight delay-02s">
-            <div id="samples">
-              <img id="samples" src="./img/ReactION-sample.png" alt="ReactION Features">
+            <div class="samples">
+              <img class="samples" src="./img/reaction-live-demo.gif" alt="ReactION's live component graph with per-component render-count badges and live DOM highlighting">
             </div>
           </figure>
         </div>
@@ -198,9 +214,16 @@
               </div>
             </div>
             <figure class="col-lg-8 col-sm-6 wow fadeInRight delay-02s">
-              <div id="samples">
-                <img src="./img/Demo.gif" alt="ReactION Demo">
+              <div class="samples">
+                <img src="./img/reaction-static-demo.gif" alt="ReactION's static composition tree, built from source with no dev server running, with the inspector panel open showing a component's dependency metrics and props">
               </div>
+              <figcaption>The static composition tree, built straight from your source — no dev server or browser required.</figcaption>
+            </figure>
+            <figure class="col-lg-8 col-sm-6 wow fadeInRight delay-02s">
+              <div class="samples">
+                <img src="./img/reaction-live-demo.gif" alt="ReactION's live component graph next to the running app in Chrome, showing per-component render-count badges, a node's re-render reason, and its live DOM highlight">
+              </div>
+              <figcaption>The live component graph next to the running app: number badges are per-component render counts, and selecting a node shows why it re-rendered.</figcaption>
             </figure>
           </div>
         </div>

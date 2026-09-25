@@ -41,7 +41,9 @@
 
 img{ max-width:100%;}
 
-#samples{box-shadow: 4px 8px 8px 5px #ececec;}
+.samples{box-shadow: 4px 8px 8px 5px #ececec;}
+
+figcaption{font-size:13px; color:#777; margin-top:12px; text-align:left;}
 
 #reaction-img{max-width: 80%; margin-left:10%; text-align: center;}
 
