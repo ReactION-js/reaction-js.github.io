@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, maximum-scale=1">
 
   <!-- key words -->
-  <meta name="keywords" content="React, ReactION, Developer Tool, Javascript, ES6, VS Code, Visual Studio Code Extension, Developer, React Developer, D3, Create React App, Learn programming, Visualization, React 16, React 15, React fiber, fiber, redux, react redux, router, react router, browser router, redux store, d3 tree, d3 v5, react visualizer, component visualizer, react component visualizer, react component"
+  <meta name="keywords" content="React, ReactION, Developer Tool, Javascript, ES6, VS Code, Visual Studio Code Extension, Cursor, Developer, React Developer, D3, Create React App, Learn programming, Visualization, React 16, React 15, React fiber, fiber, redux, react redux, router, react router, browser router, redux store, d3 tree, d3 v5, react visualizer, component visualizer, react component visualizer, react component"
   />
 
   <title>ReactION</title>
@@ -45,19 +45,20 @@
     <div class="main-wrapper">
     <div class="container">
       <figure class="logo animated fadeInDown delay-07s">
-        <img src="img/logo.png" alt="ReactION, a React component visualizer for VS Code">
+        <img src="img/logo.png" alt="ReactION, a React component visualizer for VS Code and Cursor">
       </figure>
       <h1 class="animated fadeInDown delay-10s" id="logo-header">ReactION</h1>
       <ul class="we-create animated fadeInUp delay-1s">
         <li id="header-description">
-          React Component Visualizer for VS Code
+          React Component Visualizer for VS Code & Cursor
         </li>
         <br/>
         <br/>
         <br/>
       </ul>
       <div class="home-buttons">
-        <a id="download-btn" class="link animated fadeInUp delay-1s servicelink" href="https://marketplace.visualstudio.com/items?itemName=ReactION-js.ReactION" target="_blank">Download</a>
+        <a id="vscode-btn" class="link animated fadeInUp delay-1s servicelink" href="https://marketplace.visualstudio.com/items?itemName=ReactION-js.ReactION" aria-label="Get ReactION on the VS Code Marketplace" target="_blank">VS Code</a>
+        <a id="openvsx-btn" class="link animated fadeInUp delay-1s servicelink" href="https://open-vsx.org/extension/ReactION-JS/ReactION" aria-label="Get ReactION on Open VSX for Cursor and other VS Code-compatible editors" target="_blank">Cursor</a>
         <a id="github-button" class="github-link animated fadeInUp delay-1s serviceLink" href="https://github.com/ReactION-js/ReactION" aria-label="Start ReactION on GitHub" target="_blank">GitHub</a>
       </div>
     </div>
@@ -71,6 +72,9 @@
       <ul class="main-nav">
         <li>
           <a href="#features">Concept</a>
+        </li>
+        <li>
+          <a href="#demo">Demo</a>
         </li>
         <li>
         <a href="#header">
@@ -102,11 +106,26 @@
           <div class="col-lg-12">
             <div class="service-list">
               <div class="service-list-col2">
-                ReactION visualizes your React app's component tree right inside VS Code, two ways: an instant <strong>static</strong> composition tree built straight from your source — no dev server, no browser, no setup — and an opt-in <strong>live</strong> mode that drives a real Chrome instance and streams an interactive graph with render counts, wasted-render detection, and live DOM highlighting.
+                ReactION visualizes your React app's component tree right inside VS Code and Cursor, two ways: an instant <strong>static</strong> composition tree built straight from your source — no dev server, no browser, no setup — and an opt-in <strong>live</strong> mode that drives a real Chrome instance and streams an interactive graph with render counts, wasted-render detection, and live DOM highlighting.
+              </div>
+            </div>
+            <div class="service-list">
+              <div class="service-list-col2">
+                To install, open the Extensions view in either editor (<code>Cmd+Shift+X</code> on macOS, <code>Ctrl+Shift+X</code> on Windows/Linux) and search for <strong>ReactION</strong> — or jump straight to the listing with the VS Code or Cursor buttons above.
               </div>
             </div>
           </div>
         </div>
+      </div>
+    </section>
+    <!--FEATURES-end-->
+
+    <!--DEMO-start-->
+    <section class="main-section alabaster" id="demo">
+      <div class="container">
+        <h2>
+          Demo
+        </h2>
         <br>
         <div class="row">
           <div class="col-lg-4 col-sm-6 wow fadeInLeft delay-05s">
@@ -141,7 +160,7 @@
         </div>
       </div>
     </section>
-    <!--FEATURES-end-->
+    <!--DEMO-end-->
 
       <!--ABOUT US-start-->
   <section class="main-section" id="about-us">
